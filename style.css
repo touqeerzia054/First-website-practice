@@ -1,0 +1,14 @@
+
+.my-bg{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9IZB8giV0I4LquUiiD65AKMu4wfCt9pwD0A&s");
+    background-size: cover;
+  background-position: center;
+  height: 280px;
+  }
+  footer{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH44cpoYOUjt4iupoJKxaysQkG9bLMZHnLFQ&s");
+background-size: cover;
+background-position: center;}
+.padding{
+    margin-top: 100px;
+    padding-top: 50px;
+
+}
