@@ -1,12 +1,21 @@
 
-.my-bg{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9IZB8giV0I4LquUiiD65AKMu4wfCt9pwD0A&s");
-    background-size: cover;
+.my-bg {
+  background-image: url("https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg");
+  background-size: cover;
   background-position: center;
-  height: 280px;
-  }
-  footer{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH44cpoYOUjt4iupoJKxaysQkG9bLMZHnLFQ&s");
-background-size: cover;
-background-position: center;}
+  background-repeat: no-repeat;
+  min-height: 280px;
+}
+footer {
+  background: 
+    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url("https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  color: #fff;
+}
 .padding{
     margin-top: 100px;
     padding-top: 50px;
