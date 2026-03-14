@@ -1,23 +1,43 @@
 
 .my-bg {
-  background-image: url("https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg");
+  background-image: url("https://i0.wp.com/companywebsites.com/wp-content/uploads/2021/10/head2.jpg?fit=1920%2C1080");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 280px;
+  min-height: 400px;
+}
+.navbar{
+min-height: 60px;
+}
+.nav-link:hover{
+  color: #007bff !important;
+}
+h2{
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
 footer {
   background: 
     linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg");
+    url("https://i0.wp.com/companywebsites.com/wp-content/uploads/2021/10/boat-gf75d521e7_1920.jpg?fit=1920%2C1280&ssl=1");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 250px;
+  min-height: 450px;
   color: #fff;
 }
-.padding{
+.text-whit{
+  margin-top: 135px;
+}
+.img{ height: 70px; width: 70px;
+  position: fixed; right:15px; top: calc(100% - 130px); border: #fff solid 4px; border-radius: 50%;}
+  .padding{
     margin-top: 100px;
     padding-top: 50px;
 
+}
+.w{
+  height: 30px;
+  width: 30px;
 }
