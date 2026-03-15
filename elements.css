@@ -1,0 +1,67 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    min-height: 60px;
+}
+.nav-link:hover{
+  color: #007bff !important;
+}
+.fl{
+    background-color: steelblue;
+    padding: 50px;
+  }
+  .mt-5{
+    font-weight: 700;
+  }
+  .get{
+    width: 170px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  
+a{
+    text-decoration: none;
+  }
+  
+  .d-block:hover{
+  background-color: brown;
+  color: white;
+  transform: scale(1.3);
+  }
+
+  .h{
+    font-weight: 700;
+  }
+.word{
+  background-color: antiquewhite;
+}
+
+h3{
+  border-bottom: black 1px solid;
+}
+footer {
+    background: 
+      linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+      url("https://i0.wp.com/companywebsites.com/wp-content/uploads/2021/10/boat-gf75d521e7_1920.jpg?fit=1920%2C1280&ssl=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    color: #fff;
+  }
+  .text-whit{
+    margin-top: 135px;
+  }
+  .img{ height: 70px; width: 70px;
+    position: fixed; right:15px; top: calc(100% - 130px); border: #fff solid 4px; border-radius: 50%;}
+    .padding{
+      margin-top: 100px;
+      padding-top: 50px;
+  
+  }
+  .w{
+    height: 30px;
+    width: 30px;
+  }
