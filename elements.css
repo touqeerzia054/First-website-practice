@@ -38,9 +38,20 @@ a{
   background-color: antiquewhite;
 }
 
-h3{
+h3, .gallery{
   border-bottom: black 1px solid;
 }
+
+.imageg{
+  opacity:0;
+  transform:translateY(50px);
+  transition:1s;
+}
+.imageg.show{
+    opacity:1;
+    transform:translateY(0);
+    }
+
 footer {
     background: 
       linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
