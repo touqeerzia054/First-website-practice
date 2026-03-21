@@ -1,11 +1,8 @@
-/* ===== GLOBAL ===== */
 body{
   margin: 0;
   padding: 0;
-  overflow-x: hidden;   /* overflow fix */
 }
 
-/* ===== NAVBAR ===== */
 .navbar{
 min-height: 60px;
 }
@@ -14,7 +11,6 @@ min-height: 60px;
 color: #007bff !important;
 }
 
-/* ===== HEADER ===== */
 header{
 margin: 0;
 padding: 0;
@@ -32,42 +28,38 @@ justify-content: center;
 text-align: center;
 }
 
-/* heading fix */
 .display-5{
 font-weight: bold;
-padding: 0;              /* remove fixed padding */
+padding: 0;
 margin: 0;
 }
 
-/* ===== CATEGORY MENU ===== */
-ul{
+.Ul{
 display: flex;
-flex-wrap: wrap;         /* mobile wrap */
+flex-wrap: wrap;     
 justify-content: center;
 gap: 10px;
 padding: 0;
 margin: 0;
 }
 
-li{
+.li{
 list-style: none;
 }
 
-a{
+.a{
 text-decoration: none;
 color: rgb(226, 100, 100);
 padding: 6px 12px;
 display: inline-block;
 }
 
-/* ===== BLOG SECTION ===== */
 .col-md-6{
 margin: 10px 0;
 }
 
 .blog-box{
 box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-height: 100%;
 border: none;
 }
 
@@ -82,42 +74,28 @@ height: 200px;
 object-fit: cover;
 }
 
-/* ===== FOOTER ===== */
+/* footer */
 footer {
-background: 
-  linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-  url("https://i0.wp.com/companywebsites.com/wp-content/uploads/2021/10/boat-gf75d521e7_1920.jpg?fit=1920%2C1280&ssl=1");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-min-height: 450px;
-color: #fff;
+  background: 
+    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url("https://i0.wp.com/companywebsites.com/wp-content/uploads/2021/10/boat-gf75d521e7_1920.jpg?fit=1920%2C1280&ssl=1");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  color: #fff;
 }
-
 .text-whit{
-margin-top: 100px;
-text-align: center;
+  margin-top: 135px;
 }
+.img{ height: 70px; width: 70px;
+  position: fixed; right:15px; top: calc(100% - 130px); border: #fff solid 4px; border-radius: 50%;}
+  .padding{
+    margin-top: 100px;
+    padding-top: 50px;
 
-/* icons */
+}
 .w{
-height: 30px;
-width: 30px;
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 768px){
-
-.my-bg{
-  min-height: 200px;
-}
-
-.display-5{
-  font-size: 22px;
-}
-
-a{
-  padding: 5px 10px;
-  font-size: 14px;
-}
+  height: 30px;
+  width: 30px;
 }
