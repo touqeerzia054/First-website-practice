@@ -8,19 +8,43 @@ body{
 .nav-link:hover{
   color: #007bff !important;
 }
+
+/* header */
 header{
     margin: 0%;
     padding: 0%;
 }
 .my-bg {
-    background-image: url("https://i0.wp.com/companywebsites.com/wp-content/uploads/2021/11/trees_1920.jpg?fit=1920%2C1080");
+    background-image: url("https://i0.wp.com/companywebsites.com/wp-content/uploads/2021/11/watercolor_1920.jpg?fit=1920%2C1080&ssl=1");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 450px;
-    background-color: black;
+    height: 450px;
     color: rgb(203, 216, 201);
   }
+@media (max-width:768px) {
+  .my-bg{height: 300px;}
+}
+
+/* main */
+.line{width: 50px; height: 5px; background-color: #007bff; display: inline-block; margin: 0%; padding: 0%;}
+.linet{width: 50px; height: 5px; background-color: blue; display: inline-block; margin: 0%; padding: 0%;}
+.image{background-color: darkgray;}
+
+.fl{
+  background-color: steelblue;
+  padding: 50px;
+}
+.mt-5{
+  font-weight: 700;
+}
+.get{
+  width: 170px;
+  height: 40px;
+  border-radius: 12px;
+}
+
+/* footer */
   footer {
     background: 
       linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
